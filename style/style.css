@@ -2,7 +2,9 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
-
+header{
+    /* background: #FFF; */
+}
 nav{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -28,9 +30,12 @@ nav{
     height: 40px;
 }
 .nav-logo{
-    margin-right: 240px;
-    
-     
+    margin-right: 240px; 
+}
+.itam{
+    display: flex;
+    gap: 58px;
+    margin-top: 18px;
 }
 .nav-btm{
     border-radius: 8px;
@@ -39,6 +44,7 @@ nav{
     font-size: 1.1rem;
     padding: 15px;
     font-weight: 500;
+    margin-left: 58px;
 }
 #youtube{
     width: 40px;
@@ -47,7 +53,7 @@ nav{
 }
 nav ul{
     display: flex;
-    gap: 58px;
+    /* gap: 58px; */
 }
 nav ul li{
     list-style: none;
@@ -56,6 +62,191 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #3C354F;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 500;
+}
+
+
+
+.banar-frist{
+    display: flex;
+     
+}
+.banar-frist img{
+    margin-right: 90px;
+    width: 700px;
+    height: 700px;
+}
+.goat-section{
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    padding-top: 148px;
+    padding-bottom: 148px;
+    padding-left: 170px;
+    padding-right: 300px;
+     
+}
+.head{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+      
+    
+}
+.head-big{
+    color:  #9e05bc;
+    font-size: 5.9rem;
+    margin-bottom:30px;
+    /* margin-left: 240px; */
+}
+.logo{
+    /* margin-left: 240px; */
+}
+.goat-btm{
+    background: #FF42A5; 
+    border: 0px;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 48px;
+    /* margin-left: 240px; */
+}
+.goat-scound-btm{
+    background: #4EC5F7;
+    border: 0px;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 48px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+/* madia section max-width:576px  */
+@media screen and (max-width:576px){
+    nav{
+        flex-direction: column;
+        background: none;
+        box-shadow: none;
+    }
+    .nav-title{
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .itam{
+        flex-direction: column;
+         gap: 10px;
+     }
+    nav ul{
+        flex-direction: column;
+        margin-left: 0px;
+         
+    }
+    .nav-logo{
+        margin-right: 0px;
+
+    }
+    .nav-btm{
+        margin-right:0px;
+    }
+    .nav-btm{
+        margin-top: 20px;
+        margin-left: 0px;
+          
+    }
+    .banar-frist{
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+    .banar-frist img{
+        width: 200px;
+        height: 200px;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+    .goat-section{
+        padding: 40px;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .head{
+        font-size: 2rem;
+        font-weight: 600;
+          
+        
+    }
+    .head-big{
+        color:  #9e05bc;
+        font-size: 3.9rem;
+        margin-bottom:30px;
+        
+    }
+     
+    .goat-btm{
+        font-size: .8rem;
+        font-weight: 600px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 48px;
+    }
+    .goat-scound-btm{
+        font-size: 1rem;
+        font-weight: 600px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 48px;
+        margin-left: 10px;
+    }
+}
+
+
+
+/* madia section min width576px and max width 990px */
+@media screen and (min-width:576px) and (max-width:990px){
+    nav{
+      background: none;   
+      box-shadow: none;
+       
+}
+.nav-title{
+    margin-left: 50px;
+    font-size: 1.6rem;
+}
+.nav-logo{
+    margin-right: 0px;
+}
+.banar-frist{
+    flex-direction: column-reverse;
+}
+.banar-frist img{
+    width: 400px;
+    height: 400px;
+    margin-left: 170px;
+}
+.goat-section{
+    padding-left: 110px;
+    padding-top: 60px;
+    margin-top: 15px;
+}
+.title-img{
+    width: 30px;
+    height: 20px;
+}
 }
